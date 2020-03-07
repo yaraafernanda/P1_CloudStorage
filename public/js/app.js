@@ -25,7 +25,7 @@ $(document).ready(function () {
     $("#previous").hide();
     $("#next").hide();
 
-    var imagesUrl = [];
+    imagesUrl = [];
     numResults = search.length;
     totalPages = Math.ceil(numResults / 4);
 
